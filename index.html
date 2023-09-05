@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <style>
+        /* Your existing styles */
+
+        nav {
+            background-color: #7EBBBB;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Add responsive styles */
+        @media screen and (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav li {
+                margin-bottom: 10px;
+            }
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            margin: 0 auto;
+            /* Center the column */
+            width: 90%;
+            padding: 8px;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        /* Add specific styles for the "professional" section */
+        .professional-section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .professional-text {
+            flex-basis: 60%;
+            /* Adjust as needed */
+        }
+
+        .professional-image {
+            flex-basis: 35%;
+            /* Adjust as needed */
+            text-align: right;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        /* Additional styles for the header */
+        .header {
+            background-color: white;
+            text-align: right;
+            /* Right-justify the text */
+            padding: 20px 48px 20px 0;
+            /* Padding with 48px on the right */
+        }
+
+        .header h1 {
+            font-family: 'Permanent Marker', cursive;
+            color: black;
+            margin: 0;
+        }
+
+        .heroImg img {
+            width: 75%;
+            /* 25% smaller */
+            display: block;
+            margin: 0 auto;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>I AM JARRETT</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="heroImg">
+        <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t31.18172-8/19800584_10155043186232851_8689622010352302918_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=MfZU7518jR0AX_1hu6a&_nc_ht=scontent-sjc3-1.xx&oh=00_AfA6zgtlFte2nhD1BBWX4SB16HRPVj4_gSlLGIuW_V8BZA&oe=65133AA1"
+            alt="No Parking">
+    </section>
+
+
+
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <h2>Jarrett Carlston</h2>
+                <p class="title">UI/UX Researcher and Designer</p>
+                <p>Linkedin.com/in/jarrettcarlston</p>
+                <div class="professional-section">
+                    <div class="professional-text">
+                        <h3>Professional</h3>
+                        <p>A recent UC Berkeley UX/UI graduate with a decade-long journey in the field, my expertise has
+                            been honed through my roles as a Support Operations Manager, where I focused on usability
+                            and empathy. Now, I am eager to channel my extensive experience and education into a new
+                            opportunity as a UX Researcher, leveraging my skills to contribute to the creation of
+                            exceptional digital experiences.</p>
+                    </div>
+                </div>
+                <h3>Personal</h3>
+                <p>Once upon a time, I used to curate beautiful art pieces in my own gallery, but these days, you'll
+                    find me chasing waves and munching on the best tacos around. From canvas to surfboard, I've
+                    transitioned my passion for aesthetics, bringing together my love for all things creative. Whether
+                    it's riding the perfect wave or savoring a mouthwatering taco, I'm all about embracing the vibrant
+                    beauty life has to offer.
